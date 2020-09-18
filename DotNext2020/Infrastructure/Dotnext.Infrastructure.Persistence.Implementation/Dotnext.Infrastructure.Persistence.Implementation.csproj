@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Dotnext.Common\Dotnext.Common.csproj" />
+    <ProjectReference Include="..\..\Domain\Dotnext.Domain\Dotnext.Domain.csproj" />
+    <ProjectReference Include="..\..\Shared\Dotnext.Common\Dotnext.Common.csproj" />
     <ProjectReference Include="..\Dotnext.Infrastructure.Host.Interfaces\Dotnext.Infrastructure.Host.Interfaces.csproj" />
     <ProjectReference Include="..\Dotnext.Infrastructure.Persistence.Interfaces\Dotnext.Infrastructure.Persistence.Interfaces.csproj" />
   </ItemGroup>
