@@ -5,11 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="MediatR" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Dotnext.Common\Dotnext.Common.csproj" />
+    <ProjectReference Include="..\..\Core\Dotnext.Application\Dotnext.Application.csproj" />
     <ProjectReference Include="..\..\Core\Dotnext.Domain\Dotnext.Domain.csproj" />
   </ItemGroup>
 

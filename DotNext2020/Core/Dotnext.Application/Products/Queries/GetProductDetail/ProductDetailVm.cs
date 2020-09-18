@@ -2,7 +2,7 @@
 using Dotnext.Application.Common.Mappings;
 using Dotnext.Domain.Entities;
 
-namespace Northwind.Application.Products.Queries.GetProductDetail
+namespace Dotnext.Application.Products.Queries.GetProductDetail
 {
     public class ProductDetailVm : IMapFrom<Product>
     {

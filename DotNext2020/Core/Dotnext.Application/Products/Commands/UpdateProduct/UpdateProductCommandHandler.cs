@@ -5,7 +5,7 @@ using Dotnext.Domain.Entities;
 using Dotnext.Infrastructure.Interfaces;
 using MediatR;
 
-namespace Northwind.Application.Products.Commands.UpdateProduct
+namespace Dotnext.Application.Products.Commands.UpdateProduct
 {
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand>
     {

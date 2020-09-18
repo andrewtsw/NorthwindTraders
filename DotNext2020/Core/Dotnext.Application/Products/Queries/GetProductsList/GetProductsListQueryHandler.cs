@@ -7,9 +7,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Northwind.Application.Products.Queries.GetProductsList
+namespace Dotnext.Application.Products.Queries.GetProductsList
 {
-    public class GetProductsListQueryHandler : IRequestHandler<GetProductsListQuery, ProductsListVm>
+    internal class GetProductsListQueryHandler : IRequestHandler<GetProductsListQuery, ProductsListVm>
     {
         private readonly INorthwindDbContext _context;
         private readonly IMapper _mapper;

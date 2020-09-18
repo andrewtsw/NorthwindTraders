@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Northwind.Application.Products.Queries.GetProductDetail
+namespace Dotnext.Application.Products.Queries.GetProductDetail
 {
-    public class GetProductDetailQueryHandler : MediatR.IRequestHandler<GetProductDetailQuery, ProductDetailVm>
+    internal class GetProductDetailQueryHandler : MediatR.IRequestHandler<GetProductDetailQuery, ProductDetailVm>
     {
         private readonly INorthwindDbContext _context;
         private readonly IMapper _mapper;

@@ -6,9 +6,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Northwind.Application.Products.Queries.GetProductsFile
+namespace Dotnext.Application.Products.Queries.GetProductsFile
 {
-    public class GetProductsFileQueryHandler : IRequestHandler<GetProductsFileQuery, ProductsFileVm>
+    internal class GetProductsFileQueryHandler : IRequestHandler<GetProductsFileQuery, ProductsFileVm>
     {
         private readonly INorthwindDbContext _context;
         private readonly ICsvFileBuilder _fileBuilder;

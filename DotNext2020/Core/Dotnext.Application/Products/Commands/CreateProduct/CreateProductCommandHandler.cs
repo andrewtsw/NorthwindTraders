@@ -4,7 +4,7 @@ using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Northwind.Application.Products.Commands.CreateProduct
+namespace Dotnext.Application.Products.Commands.CreateProduct
 {
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
     {

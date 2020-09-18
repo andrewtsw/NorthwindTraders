@@ -1,7 +1,7 @@
 ﻿using Dotnext.Application.Products.Commands.Common;
 using MediatR;
 
-namespace Northwind.Application.Products.Commands.UpdateProduct
+namespace Dotnext.Application.Products.Commands.UpdateProduct
 {
     public class UpdateProductCommand : IRequest
     {

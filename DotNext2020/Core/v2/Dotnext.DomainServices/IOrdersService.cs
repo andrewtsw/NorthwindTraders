@@ -2,7 +2,7 @@
 
 namespace Dotnext.DomainServices
 {
-    public interface IOrdersServiceV2
+    public interface IOrdersService
     {
         decimal CalculateTotalPrice(Order order);
 

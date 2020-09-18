@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Dotnext.DomainServices
 {
-    internal class OrdersServiceV2 : IOrdersServiceV2
+    internal class OrdersService : IOrdersService
     {
         public decimal CalculateTotalPrice(Order order)
         {

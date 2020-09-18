@@ -6,7 +6,7 @@ using Dotnext.Domain.Entities;
 using Dotnext.Infrastructure.Interfaces;
 using MediatR;
 
-namespace Northwind.Application.Products.Commands.DeleteProduct
+namespace Dotnext.Application.Products.Commands.DeleteProduct
 {
     public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand>
     {

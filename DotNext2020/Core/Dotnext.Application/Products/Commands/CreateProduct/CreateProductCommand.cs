@@ -1,7 +1,7 @@
 ﻿using Dotnext.Application.Products.Commands.Common;
 using MediatR;
 
-namespace Northwind.Application.Products.Commands.CreateProduct
+namespace Dotnext.Application.Products.Commands.CreateProduct
 {
     public class CreateProductCommand : IRequest<int>
     {

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Dotnext.Application\Dotnext.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Dotnext.Domain.Services\Dotnext.Domain.Services.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Csv.Implementation\Dotnext.Infrastructure.Csv.Implementation.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Host.Interfaces\Dotnext.Infrastructure.Host.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Notifications.Implementation\Dotnext.Infrastructure.Notifications.Implementation.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Persistence.Implementation\Dotnext.Infrastructure.Persistence.Implementation.csproj" />
+    <ProjectReference Include="..\..\Presentation\Dotnext.Controllers\Dotnext.Controllers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Swagger\" />
+  </ItemGroup>
+
+
+</Project>
