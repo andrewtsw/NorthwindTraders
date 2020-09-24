@@ -1,4 +1,5 @@
 using Dotnext.Application;
+using Dotnext.Application.Services.Implementation;
 using Dotnext.Domain.Services;
 using Dotnext.Infrastructure.Csv.Implementation;
 using Dotnext.Infrastructure.Host.Interfaces;
@@ -37,6 +38,7 @@ namespace Dotnext.WebHost
 
             // Application
             services.AddApplication();
+            services.AddApplicationServices();
 
             // Controllers
             services.AddControllers();

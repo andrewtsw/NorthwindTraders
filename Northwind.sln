@@ -91,6 +91,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.Domain.Services", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.Domain.Services.Interfaces", "DotNext2020\Domain\Dotnext.Domain.Services.Interfaces\Dotnext.Domain.Services.Interfaces.csproj", "{5DAB1A95-839E-45BD-8BF4-2291E805C51D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnext.Application.Services.Interfaces", "DotNext2020\Application\Dotnext.Application.Services.Interfaces\Dotnext.Application.Services.Interfaces.csproj", "{B50B07E2-6AA0-47DF-AEA8-0E57E370CDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnext.Application.Services.Implementation", "DotNext2020\Application\Dotnext.Application.Services.Implementation\Dotnext.Application.Services.Implementation.csproj", "{74EB3FFE-8C96-45F5-806B-C9E5291A7D8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,14 @@ Global
 		{5DAB1A95-839E-45BD-8BF4-2291E805C51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DAB1A95-839E-45BD-8BF4-2291E805C51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DAB1A95-839E-45BD-8BF4-2291E805C51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50B07E2-6AA0-47DF-AEA8-0E57E370CDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50B07E2-6AA0-47DF-AEA8-0E57E370CDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50B07E2-6AA0-47DF-AEA8-0E57E370CDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50B07E2-6AA0-47DF-AEA8-0E57E370CDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EB3FFE-8C96-45F5-806B-C9E5291A7D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EB3FFE-8C96-45F5-806B-C9E5291A7D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EB3FFE-8C96-45F5-806B-C9E5291A7D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EB3FFE-8C96-45F5-806B-C9E5291A7D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +256,8 @@ Global
 		{1C96DD07-59C7-44FA-B477-37647252F130} = {CD85BE20-DB60-4065-BBF0-9A4C1B5126A3}
 		{39CFE635-6564-4994-80DE-E8BBE8A03222} = {CD85BE20-DB60-4065-BBF0-9A4C1B5126A3}
 		{5DAB1A95-839E-45BD-8BF4-2291E805C51D} = {CD85BE20-DB60-4065-BBF0-9A4C1B5126A3}
+		{B50B07E2-6AA0-47DF-AEA8-0E57E370CDA9} = {8B93B054-E8B3-4A5E-91D4-BD96C6DE9450}
+		{74EB3FFE-8C96-45F5-806B-C9E5291A7D8B} = {8B93B054-E8B3-4A5E-91D4-BD96C6DE9450}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D5D0CA3-C6B8-436C-82B0-39820C8A13FA}

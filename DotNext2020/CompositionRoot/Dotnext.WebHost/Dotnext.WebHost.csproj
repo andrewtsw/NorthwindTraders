@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Application\Dotnext.Application.Services.Implementation\Dotnext.Application.Services.Implementation.csproj" />
     <ProjectReference Include="..\..\Application\Dotnext.Application\Dotnext.Application.csproj" />
     <ProjectReference Include="..\..\Controllers\Dotnext.Controllers\Dotnext.Controllers.csproj" />
     <ProjectReference Include="..\..\Domain\Dotnext.Domain.Services\Dotnext.Domain.Services.csproj" />

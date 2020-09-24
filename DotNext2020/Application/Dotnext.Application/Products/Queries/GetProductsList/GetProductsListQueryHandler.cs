@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using Dotnext.Application.Services.Interfaces;
 using Dotnext.Infrastructure.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -13,11 +14,13 @@ namespace Dotnext.Application.Products.Queries.GetProductsList
     {
         private readonly INorthwindDbContext _context;
         private readonly IMapper _mapper;
+        private readonly IPermissionsManager _permissionsManager;
 
-        public GetProductsListQueryHandler(INorthwindDbContext context, IMapper mapper)
+        public GetProductsListQueryHandler(INorthwindDbContext context, IMapper mapper, IPermissionsManager permissionsManager)
         {
             _context = context;
             _mapper = mapper;
+            _permissionsManager = permissionsManager;
         }
 
         public async Task<ProductsListVm> Handle(GetProductsListQuery request, CancellationToken cancellationToken)
