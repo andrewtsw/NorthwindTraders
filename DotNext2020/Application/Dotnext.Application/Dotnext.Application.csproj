@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Dotnext.Domain.Services.Interfaces\Dotnext.Domain.Services.Interfaces.csproj" />
     <ProjectReference Include="..\..\Domain\Dotnext.Domain\Dotnext.Domain.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Interfaces\Dotnext.Infrastructure.Interfaces.csproj" />
     <ProjectReference Include="..\..\Shared\Dotnext.Common\Dotnext.Common.csproj" />

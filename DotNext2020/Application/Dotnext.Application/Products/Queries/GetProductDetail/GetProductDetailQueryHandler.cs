@@ -3,13 +3,14 @@ using AutoMapper.QueryableExtensions;
 using Dotnext.Application.Common.Exceptions;
 using Dotnext.Domain.Entities;
 using Dotnext.Infrastructure.Interfaces;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace Dotnext.Application.Products.Queries.GetProductDetail
 {
-    internal class GetProductDetailQueryHandler : MediatR.IRequestHandler<GetProductDetailQuery, ProductDetailVm>
+    internal class GetProductDetailQueryHandler : IRequestHandler<GetProductDetailQuery, ProductDetailVm>
     {
         private readonly INorthwindDbContext _context;
         private readonly IMapper _mapper;
