@@ -1,4 +1,5 @@
 ﻿using Dotnext.Application.Common.Exceptions;
+using Dotnext.Application.Services.Interfaces;
 using Dotnext.Domain.Entities;
 using Dotnext.Domain.Services.Interfaces;
 using Dotnext.Infrastructure.Interfaces;
@@ -13,11 +14,15 @@ namespace Dotnext.Application.Orders.Queries.GetQueryById
     {
         private readonly INorthwindDbContext _context;
         private readonly IOrdersService _ordersService;
+        private readonly IPermissionsManager _permissionsManager;
 
-        public GetOrderTotalQueryHandler(INorthwindDbContext context, IOrdersService ordersService)
+        public GetOrderTotalQueryHandler(INorthwindDbContext context, 
+            IOrdersService ordersService,
+            IPermissionsManager permissionsManager)
         {
             _context = context;
             _ordersService = ordersService;
+            _permissionsManager = permissionsManager;
         }
 
         public async Task<decimal> Handle(GetOrderTotalQuery request, CancellationToken cancellationToken)
@@ -30,6 +35,8 @@ namespace Dotnext.Application.Orders.Queries.GetQueryById
             {
                 throw new NotFoundException(nameof(Order), request.Id);
             }
+
+            var permissions = _permissionsManager.GetCurrentUserPermissions();
 
             // Domain model
             // return order.CalculateTotalPrice();
