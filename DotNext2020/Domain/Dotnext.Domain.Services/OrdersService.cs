@@ -2,7 +2,7 @@
 using Dotnext.Domain.Entities;
 using System.Linq;
 
-namespace Dotnext.Domain.Services
+namespace Dotnext.Domain.Services.Implementation
 {
     internal class OrdersService : IOrdersService
     {

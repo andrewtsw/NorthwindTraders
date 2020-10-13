@@ -1,7 +1,7 @@
 ﻿using Dotnext.Domain.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Dotnext.Domain.Services
+namespace Dotnext.Domain.Services.Implementation
 {
     public static class DependencyInjection
     {

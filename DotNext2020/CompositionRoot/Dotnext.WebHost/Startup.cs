@@ -1,6 +1,6 @@
 using Dotnext.Application;
 using Dotnext.Application.Services.Implementation;
-using Dotnext.Domain.Services;
+using Dotnext.Domain.Services.Implementation;
 using Dotnext.Infrastructure.Csv.Implementation;
 using Dotnext.Infrastructure.Host.Interfaces;
 using Dotnext.Infrastructure.Notifications.Implementation;

@@ -12,7 +12,7 @@
     <ProjectReference Include="..\..\Application\Dotnext.Application.Services.Implementation\Dotnext.Application.Services.Implementation.csproj" />
     <ProjectReference Include="..\..\Application\Dotnext.Application\Dotnext.Application.csproj" />
     <ProjectReference Include="..\..\Controllers\Dotnext.Controllers\Dotnext.Controllers.csproj" />
-    <ProjectReference Include="..\..\Domain\Dotnext.Domain.Services\Dotnext.Domain.Services.csproj" />
+    <ProjectReference Include="..\..\Domain\Dotnext.Domain.Services\Dotnext.Domain.Services.Implementation.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Csv.Implementation\Dotnext.Infrastructure.Csv.Implementation.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Host.Interfaces\Dotnext.Infrastructure.Host.Interfaces.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Dotnext.Infrastructure.Notifications.Implementation\Dotnext.Infrastructure.Notifications.Implementation.csproj" />
