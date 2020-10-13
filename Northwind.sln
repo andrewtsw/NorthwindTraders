@@ -85,7 +85,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.DomainServices", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.Domain", "DotNext2020\Domain\Dotnext.Domain\Dotnext.Domain.csproj", "{1C96DD07-59C7-44FA-B477-37647252F130}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.Domain.Services", "DotNext2020\Domain\Dotnext.Domain.Services\Dotnext.Domain.Services.csproj", "{39CFE635-6564-4994-80DE-E8BBE8A03222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.Domain.Services.Implementation", "DotNext2020\Domain\Dotnext.Domain.Services\Dotnext.Domain.Services.Implementation.csproj", "{39CFE635-6564-4994-80DE-E8BBE8A03222}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnext.Domain.Services.Interfaces", "DotNext2020\Domain\Dotnext.Domain.Services.Interfaces\Dotnext.Domain.Services.Interfaces.csproj", "{5DAB1A95-839E-45BD-8BF4-2291E805C51D}"
 EndProject
