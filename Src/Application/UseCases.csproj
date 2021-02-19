@@ -16,7 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure.Interfaces\Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Infrastructure.Interfaces.Csv\Infrastructure.Interfaces.Csv.csproj" />
+    <ProjectReference Include="..\..\Infrastructure.Interfaces.Database\Infrastructure.Interfaces.Database.csproj" />
+    <ProjectReference Include="..\..\Infrastructure.Interfaces.Notifications\Infrastructure.Interfaces.Notifications.csproj" />
+    <ProjectReference Include="..\..\Infrastructure.Interfaces\Infrastructure.Interfaces.Users.csproj" />
     <ProjectReference Include="..\Common\Utils.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
