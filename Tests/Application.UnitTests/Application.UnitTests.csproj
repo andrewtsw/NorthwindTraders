@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Src\Application\Application.csproj" />
+    <ProjectReference Include="..\..\Src\Application\UseCases.csproj" />
     <ProjectReference Include="..\..\Src\Persistence\Persistence.csproj" />
   </ItemGroup>
 
