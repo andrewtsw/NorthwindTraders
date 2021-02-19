@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Application", "3 Applicat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4B785E7E-2F35-4198-BD73-D2B861E5518A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1EC1EEFF-3888-4125-9229-623C564F3E7E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infrastructure Implementation", "4 Infrastructure Implementation", "{1EC1EEFF-3888-4125-9229-623C564F3E7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{833DEA57-A970-418C-831C-2355B8294766}"
 EndProject
