@@ -45,8 +45,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Controllers\Controllers.csproj" />
     <ProjectReference Include="..\..\Infrastructure.Csv\Infrastructure.Csv.csproj" />
-    <ProjectReference Include="..\..\Infrastructure.Interfaces\Infrastructure.Interfaces.Users.csproj" />
     <ProjectReference Include="..\..\Infrastructure.Notifications\Infrastructure.Notifications.csproj" />
     <ProjectReference Include="..\Application\UseCases.csproj" />
     <ProjectReference Include="..\Common\Utils.csproj" />
